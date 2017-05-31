@@ -1,4 +1,4 @@
-# Get_Instagram_Photos
+# Get Instagram Photos
 
 This is a simple python program to download all photos on instagram.
 
