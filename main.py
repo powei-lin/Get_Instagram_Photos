@@ -43,7 +43,6 @@ def main():
         if(len(data['items']) < 20):
             break
     # Last items
-    # test
     get_20_items(data)
 
 if __name__ == '__main__':
