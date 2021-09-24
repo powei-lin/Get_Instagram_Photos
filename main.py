@@ -6,7 +6,7 @@ def get_20_items(data):
     lastid = ''
     for i in data['items']:
         lastid = str(i['id'])
-        insta_url = 'https://www.instagram.com/' + (i['code'])
+        insta_url = 'https://www.instagram.com/p/' + (i['code'])
         res = requests.get(insta_url)
         soup = BeautifulSoup(res.text, "lxml")
         json_part = soup.find_all("script", type="text/javascript")[1].string
